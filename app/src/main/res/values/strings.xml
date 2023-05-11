@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Individual1</string>
+    <string name="capybara">Capybara</string>
+    <string name="text">Главная</string>
+    <string name="text1">Про меня</string>
+    <string name="text2">Контакты</string>
+    <string name="name">Капи</string>
+    <string name="name2">ложение</string>
+    <string name="todo">TODO</string>
+    <string name="btn1">Узнай какая ты капибара сегодня!</string>
+
+</resources>
