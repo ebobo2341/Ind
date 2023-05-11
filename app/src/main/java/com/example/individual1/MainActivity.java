@@ -13,11 +13,8 @@ import java.util.Random;
 public class MainActivity extends AppCompatActivity {
 
     ImageView imageView;
-
     Button button;
-
     Random r;
-
     Integer[] images = {
             R.drawable.img1,
             R.drawable.img2,
@@ -33,15 +30,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         imageView = (ImageView) findViewById(R.id.imageView2);
-
         button = (Button) findViewById(R.id.button);
-
         r = new Random();
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
             imageView.setImageResource(images[r.nextInt(images.length)]);
             }
         });
